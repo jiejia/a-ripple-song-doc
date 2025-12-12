@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'A Ripple Song',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'all in one podcast theme for wordpress',
+  favicon: 'img/podcast.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -78,7 +78,7 @@ const config: Config = {
       title: 'A Ripple Song',
       logo: {
         alt: 'A Ripple Song Logo',
-        src: 'img/logo.svg',
+        src: 'img/podcast.svg',
       },
       items: [
         {
@@ -89,7 +89,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/jiejia/a-ripple-song',
           label: 'GitHub',
           position: 'right',
         },

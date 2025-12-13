@@ -1,47 +1,28 @@
 ---
-sidebar_position: 1
+title: 介绍
+description: A Ripple Song 播客主题使用文档
 ---
 
-# Tutorial Intro
+# A Ripple Song 播客主题
 
-Let's discover **Docusaurus in less than 5 minutes**.
+这是一套面向播客站点的主题方案，目标是让你用最少的步骤完成：创建播客 → 发布剧集 → 生成并提交 RSS → 让听众顺畅地收听。
 
-## Getting Started
+## 你将学到什么
 
-Get started by **creating a new site**.
+- 如何快速安装并完成首次配置
+- 如何发布第一期剧集（音频、封面、简介、元数据）
+- 如何生成符合平台要求的 RSS（含 Podcasting 2.0/iTunes 关键字段）
+- 如何启用播放器、小部件、国际化与统计
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 阅读路线
 
-### What you'll need
+- 新手：先看「快速开始」→「安装」→「配置」
+- 内容发布：看「剧集管理」→「RSS 与分发」
+- 出现问题：直接看「故障排查」
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 约定与术语（占位）
 
-## Generate a new site
+- “播客”：一个节目（Podcast）
+- “剧集”：一集内容（Episode）
+- “RSS”：播客订阅源（Feed）
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

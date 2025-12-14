@@ -20,7 +20,10 @@ function HomepageHeader() {
       </div>
       <div className="container">
         <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
-          <Translate id="homepage.hero.title">A Ripple Song</Translate>
+          <span className={styles.heroTitleInner}>
+            <Translate id="homepage.hero.title">A Ripple Song</Translate>
+            <span className={styles.betaBadge}>beta</span>
+          </span>
         </Heading>
         <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
           <Translate id="homepage.hero.tagline">All-in-one podcast theme for WordPress</Translate>

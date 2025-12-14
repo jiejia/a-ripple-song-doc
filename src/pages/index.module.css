@@ -63,10 +63,36 @@
   font-size: clamp(2.25rem, 4vw, 3.75rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
+  color: var(--ifm-font-color-base);
+}
+
+.heroTitleInner {
+  position: relative;
+  display: inline-block;
   background: linear-gradient(110deg, var(--ifm-font-color-base), var(--ifm-color-primary));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.betaBadge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(62%, -55%);
+  z-index: 2;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-800);
+  -webkit-text-fill-color: currentColor;
+  background: rgba(46, 133, 85, 0.14);
+  border: 1px solid rgba(46, 133, 85, 0.22);
 }
 
 .heroSubtitle {
@@ -102,4 +128,10 @@
 
 [data-theme='dark'] .heroSubtitle {
   color: var(--ifm-color-emphasis-600);
+}
+
+[data-theme='dark'] .betaBadge {
+  color: var(--ifm-color-white);
+  background: rgba(25, 144, 92, 0.48);
+  border-color: rgba(25, 144, 92, 0.72);
 }

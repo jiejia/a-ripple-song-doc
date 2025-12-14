@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "脉动之音",
+    "description": "The title of the site"
+  },
+  "tagline": {
+    "message": "面向 WordPress 的一体化播客主题",
+    "description": "The tagline of the site"
+  }
+}

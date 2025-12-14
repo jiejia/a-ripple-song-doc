@@ -1,18 +1,17 @@
 ---
-title: 更新日志
-description: 面向用户的版本变更记录
+title: Changelog
+description: User-facing version change log
 ---
 
-# 更新日志（示例）
+# Changelog (Example)
 
-> 这是占位内容，请按版本持续补充。
+> This is placeholder content, please continuously update by version.
 
 ## 1.0.0
 
-- 新增：播客管理、剧集发布、RSS 生成
-- 新增：播放器与小部件
+- Added: Podcast management, episode publishing, RSS generation
+- Added: Player and widgets
 
 ## 0.9.0
 
-- 内测版本（占位）
-
+- Beta version (placeholder)

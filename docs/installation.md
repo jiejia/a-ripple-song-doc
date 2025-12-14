@@ -1,37 +1,36 @@
 ---
-title: 安装
-description: 安装、升级与卸载
+title: Installation
+description: Installation, upgrade, and uninstallation
 ---
 
-# 安装
+# Installation
 
-本页说明如何安装主题，以及常见安装问题的处理方式（占位内容）。
+This page explains how to install the theme and handle common installation issues (placeholder content).
 
-## 环境要求（占位）
+## System Requirements (Placeholder)
 
-- WordPress：6.x+
-- PHP：8.1+
-- 服务器：支持 HTTPS
+- WordPress: 6.x+
+- PHP: 8.1+
+- Server: HTTPS support
 
-## 安装方式
+## Installation Methods
 
-### 方式 A：上传主题包
+### Method A: Upload Theme Package
 
-1. 下载主题压缩包（占位：从哪里下载）
-2. 后台 → 外观 → 主题 → 上传
-3. 启用主题
+1. Download theme package (placeholder: where to download)
+2. Backend → Appearance → Themes → Upload
+3. Activate theme
 
-### 方式 B：从代码仓库部署（可选）
+### Method B: Deploy from Code Repository (Optional)
 
-适用于开发者或自定义部署（占位）。
+Suitable for developers or custom deployments (placeholder).
 
-## 升级
+## Upgrade
 
-- 建议先备份数据库与主题设置
-- 升级后清理缓存（CDN/插件/浏览器）
+- Recommend backing up database and theme settings first
+- Clear cache after upgrade (CDN/plugins/browser)
 
-## 卸载
+## Uninstallation
 
-- 切换到其他主题
-- 可选：删除主题相关数据（请谨慎）
-
+- Switch to another theme
+- Optional: Delete theme-related data (use with caution)

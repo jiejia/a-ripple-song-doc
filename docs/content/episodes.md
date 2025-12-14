@@ -1,28 +1,27 @@
 ---
-title: 剧集管理
-description: 创建、编辑与发布剧集
+title: Episode Management
+description: Creating, editing, and publishing episodes
 ---
 
-# 剧集管理
+# Episode Management
 
-本页覆盖从“写标题”到“发布到平台”的完整流程（占位）。
+This page covers the complete workflow from "writing title" to "publishing to platforms" (placeholder).
 
-## 剧集结构建议
+## Episode Structure Recommendations
 
-- 标题：`EPxx + 主题`（示例：EP01 你好，世界）
-- 简介：开头 1 段总结 + 3–5 条要点
-- 章节（可选）：按时间点列出（Podcasting 2.0 Chapters）
-- Transcript（可选）：提供全文或摘要
+- Title: `EPxx + Topic` (Example: EP01 Hello, World)
+- Description: Opening paragraph summary + 3-5 key points
+- Chapters (optional): List by timestamp (Podcasting 2.0 Chapters)
+- Transcript (optional): Provide full text or summary
 
-## 元数据（占位）
+## Metadata (Placeholder)
 
-- 时长：自动提取或手动填写
-- 文件大小：自动提取（用于部分平台展示）
-- 显式内容标记：Explicit / Clean
+- Duration: Auto-extracted or manually entered
+- File size: Auto-extracted (for display on some platforms)
+- Explicit content marker: Explicit / Clean
 
-## 发布清单
+## Publishing Checklist
 
-- 音频可被公网访问（HTTPS，支持 Range 请求）
-- 封面尺寸与格式符合平台要求
-- 试听与移动端播放正常
-
+- Audio accessible from public internet (HTTPS, supports Range requests)
+- Cover size and format meet platform requirements
+- Preview and mobile playback work normally

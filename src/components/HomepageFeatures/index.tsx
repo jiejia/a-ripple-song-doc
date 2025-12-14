@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Translate, {translate} from '@docusaurus/Translate';
 import type {LucideIcon} from 'lucide-react';
 import {
   AudioWaveform,
@@ -23,84 +24,111 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '专业播客管理系统',
+    title: translate({
+      id: 'homepage.features.podcast.title',
+      message: 'Professional Podcast Management',
+    }),
     icon: Podcast,
     description: (
-      <>
-        完整的播客内容管理解决方案，支持剧集编号、季度管理、成员和嘉宾系统。自动提取音频元数据（时长、文件大小、格式），符合 iTunes 和 Podcasting 2.0 标准。内置 RSS 源生成，一键分发到各大播客平台。
-      </>
+      <Translate id="homepage.features.podcast.description">
+        Complete podcast content management solution with episode numbering, season management, and member/guest systems. Automatically extracts audio metadata (duration, file size, format), compliant with iTunes and Podcasting 2.0 standards. Built-in RSS feed generation for one-click distribution to major podcast platforms.
+      </Translate>
     ),
   },
   {
-    title: '沉浸式音频播放体验',
+    title: translate({
+      id: 'homepage.features.audio.title',
+      message: 'Immersive Audio Experience',
+    }),
     icon: AudioWaveform,
     description: (
-      <>
-        基于 Howler.js 的高性能播放器，配备实时频谱波形可视化。支持变速播放（0.5x-2x）、进度记忆、音量控制、播放列表管理。无刷新页面切换时保持播放状态，提供流畅的单页应用体验。
-      </>
+      <Translate id="homepage.features.audio.description">
+        High-performance player powered by Howler.js with real-time spectrum waveform visualization. Supports variable playback speed (0.5x-2x), progress memory, volume control, and playlist management. Maintains playback state during page transitions for a smooth single-page app experience.
+      </Translate>
     ),
   },
   {
-    title: '56 套精美主题配色',
+    title: translate({
+      id: 'homepage.features.themes.title',
+      message: '56 Beautiful Theme Colors',
+    }),
     icon: Palette,
     description: (
-      <>
-        采用 DaisyUI + OKLCH 色彩空间，提供 28 套浅色和 28 套深色主题。支持自动/手动切换深色模式，所有颜色经过精心调校，确保视觉一致性和可访问性。
-      </>
+      <Translate id="homepage.features.themes.description">
+        Built with DaisyUI + OKLCH color space, offering 28 light and 28 dark themes. Supports automatic/manual dark mode switching with carefully calibrated colors ensuring visual consistency and accessibility.
+      </Translate>
     ),
   },
   {
-    title: '现代化技术栈',
+    title: translate({
+      id: 'homepage.features.tech.title',
+      message: 'Modern Tech Stack',
+    }),
     icon: Code2,
     description: (
-      <>
-        基于 Roots Sage 框架构建，使用 Laravel Blade 模板引擎、TailwindCSS v4、Alpine.js 状态管理和 Vite 构建工具。代码结构清晰，开发体验优秀，支持热重载和快速构建。
-      </>
+      <Translate id="homepage.features.tech.description">
+        Built on Roots Sage framework with Laravel Blade templating, TailwindCSS v4, Alpine.js state management, and Vite build tool. Clean code structure with excellent developer experience, supporting hot reload and fast builds.
+      </Translate>
     ),
   },
   {
-    title: '完善的国际化支持',
+    title: translate({
+      id: 'homepage.features.i18n.title',
+      message: 'Comprehensive Internationalization',
+    }),
     icon: Languages,
     description: (
-      <>
-        内置 WordPress 多语言翻译系统，支持 14 种语言的播客元数据。智能日期格式化（相对时间/绝对日期），自动适配中文、日文、韩文等不同语言习惯。
-      </>
+      <Translate id="homepage.features.i18n.description">
+        Built-in WordPress multilingual translation system supporting podcast metadata in 14 languages. Smart date formatting (relative time/absolute dates) automatically adapts to different language conventions including Chinese, Japanese, and Korean.
+      </Translate>
     ),
   },
   {
-    title: '数据追踪与分析',
+    title: translate({
+      id: 'homepage.features.analytics.title',
+      message: 'Data Tracking & Analytics',
+    }),
     icon: BarChart3,
     description: (
-      <>
-        内置浏览量和播放量统计系统，通过 AJAX 实时记录用户行为。支持批量获取指标数据，为内容运营提供数据支持。
-      </>
+      <Translate id="homepage.features.analytics.description">
+        Built-in view and play count statistics system that records user behavior in real-time via AJAX. Supports batch metric data retrieval to provide data support for content operations.
+      </Translate>
     ),
   },
   {
-    title: '灵活的小部件系统',
+    title: translate({
+      id: 'homepage.features.widgets.title',
+      message: 'Flexible Widget System',
+    }),
     icon: LayoutGrid,
     description: (
-      <>
-        提供 7 个专业小部件：播客列表、博客列表、成员展示、订阅链接、标签云、轮播横幅、页脚链接。通过可视化编辑器快速搭建页面布局。
-      </>
+      <Translate id="homepage.features.widgets.description">
+        Provides 7 professional widgets: podcast list, blog list, member showcase, subscription links, tag cloud, carousel banner, and footer links. Quickly build page layouts through the visual editor.
+      </Translate>
     ),
   },
   {
-    title: '移动优先响应式设计',
+    title: translate({
+      id: 'homepage.features.responsive.title',
+      message: 'Mobile-First Responsive Design',
+    }),
     icon: Smartphone,
     description: (
-      <>
-        完全响应式布局，移动端固定底部播放器，桌面端静态展示。支持触摸手势、键盘导航和屏幕阅读器，确保所有用户都能获得良好体验。
-      </>
+      <Translate id="homepage.features.responsive.description">
+        Fully responsive layout with fixed bottom player on mobile and static display on desktop. Supports touch gestures, keyboard navigation, and screen readers to ensure a great experience for all users.
+      </Translate>
     ),
   },
   {
-    title: '无刷新页面转换技术',
+    title: translate({
+      id: 'homepage.features.transitions.title',
+      message: 'Seamless Page Transitions',
+    }),
     icon: ArrowLeftRight,
     description: (
-      <>
-        集成 Swup 页面转换引擎，实现类似单页应用的流畅导航体验。页面切换时保持音频播放状态不中断，支持表单插件和脚本自动重载，提供原生应用般的使用体验。
-      </>
+      <Translate id="homepage.features.transitions.description">
+        Integrated Swup page transition engine for smooth SPA-like navigation. Maintains audio playback state during page switches with automatic form plugin and script reloading for a native app-like experience.
+      </Translate>
     ),
   },
 ];
@@ -136,13 +164,17 @@ export default function HomepageFeatures(): ReactNode {
       </div>
       <div className="container">
         <header className={styles.header}>
-          <p className={styles.kicker}>Everything you need</p>
+          <p className={styles.kicker}>
+            <Translate id="homepage.features.kicker">Everything you need</Translate>
+          </p>
           <Heading as="h2" className={styles.title}>
-            A modern podcast theme, built for speed
+            <Translate id="homepage.features.title">A modern podcast theme, built for speed</Translate>
           </Heading>
           <p className={styles.subtitle}>
-            CMS, player, widgets, i18n, analytics, and buttery-smooth navigation — all designed to feel like a
-            polished product.
+            <Translate id="homepage.features.subtitle">
+              CMS, player, widgets, i18n, analytics, and buttery-smooth navigation — all designed to feel like a
+              polished product.
+            </Translate>
           </p>
         </header>
         <div className="row">

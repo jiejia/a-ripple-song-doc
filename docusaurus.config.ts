@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'A Ripple Song',
-  tagline: 'all in one podcast theme for wordpress',
+  tagline: 'All-in-one podcast theme for WordPress',
   favicon: 'img/podcast.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -29,8 +29,12 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans'],
+    localeConfigs: {
+      en: { label: 'English' },
+      'zh-Hans': { label: '简体中文' },
+    },
   },
 
   presets: [
@@ -91,6 +95,7 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        { type: 'localeDropdown', position: 'right' },
       ],
     },
     footer: {

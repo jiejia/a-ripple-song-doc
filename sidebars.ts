@@ -17,22 +17,22 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: '开始使用',
+      label: 'Getting Started',
       items: ['quickstart', 'installation', 'configuration'],
     },
     {
       type: 'category',
-      label: '内容制作',
+      label: 'Content Creation',
       items: ['content/episodes', 'content/rss'],
     },
     {
       type: 'category',
-      label: '功能说明',
+      label: 'Features',
       items: ['player', 'widgets', 'i18n', 'analytics'],
     },
     {
       type: 'category',
-      label: '维护与支持',
+      label: 'Maintenance & Support',
       items: ['troubleshooting', 'changelog'],
     },
   ],

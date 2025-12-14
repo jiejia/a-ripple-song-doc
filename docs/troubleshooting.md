@@ -1,23 +1,22 @@
 ---
-title: 故障排查
-description: 常见问题与解决办法
+title: Troubleshooting
+description: Common issues and solutions
 ---
 
-# 故障排查
+# Troubleshooting
 
-本页收集最常见的问题。你可以把用户反馈持续补充到这里。
+This page collects the most common issues. You can continuously add user feedback here.
 
-## RSS 相关
+## RSS Related
 
-- RSS 校验失败：先检查音频 URL 是否 200/支持 Range
-- 平台抓取旧内容：清缓存并等待平台刷新（占位）
+- RSS validation fails: First check if audio URL returns 200/supports Range
+- Platform scrapes old content: Clear cache and wait for platform refresh (placeholder)
 
-## 播放器相关
+## Player Related
 
-- 无法播放：检查跨域/CORS、HTTPS 混合内容
-- 进度不记忆：检查浏览器隐私设置（占位）
+- Cannot play: Check CORS/cross-origin, HTTPS mixed content
+- Progress not remembered: Check browser privacy settings (placeholder)
 
-## 样式相关
+## Style Related
 
-- 某些卡片滚动时闪烁：尽量避免 `backdrop-filter` 等高开销效果（示例说明）
-
+- Some cards flicker when scrolling: Try to avoid high-cost effects like `backdrop-filter` (example explanation)

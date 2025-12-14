@@ -1,62 +1,61 @@
 ---
-title: 快速开始
-description: 10 分钟发布你的第一集
+title: Quick Start
+description: Publish your first episode in 10 minutes
 ---
 
-# 快速开始（示例）
+# Quick Start (Example)
 
-本页用“虚拟内容”演示完整流程，你可以在编辑时替换为真实步骤与截图。
+This page demonstrates the complete workflow with "placeholder content" that you can replace with actual steps and screenshots during editing.
 
-## 目标
+## Goal
 
-在 10 分钟内完成：
+Complete within 10 minutes:
 
-1. 安装主题并启用
-2. 新建一个播客
-3. 发布第一集
-4. 生成 RSS，并通过校验工具检查通过
+1. Install and activate the theme
+2. Create a new podcast
+3. Publish the first episode
+4. Generate RSS and verify it passes validation tools
 
-## 第 1 步：准备素材
+## Step 1: Prepare Materials
 
-- 播客名称：示例播客
-- 播客简介：这是一段占位简介（建议 1–2 段）
-- 封面：3000x3000 JPG/PNG（示例要求）
-- 音频：MP3（示例 64–128kbps）
+- Podcast name: Example Podcast
+- Podcast description: This is a placeholder description (recommended 1-2 paragraphs)
+- Cover: 3000x3000 JPG/PNG (example requirement)
+- Audio: MP3 (example 64-128kbps)
 
-## 第 2 步：创建播客
+## Step 2: Create Podcast
 
-在后台找到「播客」→「新建」：
+Find "Podcasts" → "New" in the backend:
 
-- 标题：示例播客
-- 作者：示例团队
-- 分类：科技 / 生活（占位）
+- Title: Example Podcast
+- Author: Example Team
+- Category: Tech / Lifestyle (placeholder)
 
-保存后你会得到一个播客主页链接。
+After saving, you'll get a podcast homepage link.
 
-## 第 3 步：发布第一集
+## Step 3: Publish First Episode
 
-在后台找到「剧集」→「新建」：
+Find "Episodes" → "New" in the backend:
 
-- 标题：EP01 你好，世界
-- 音频：上传或填写音频 URL
-- 摘要：写 1–2 句概要（占位）
-- 发布时间：立即发布
+- Title: EP01 Hello, World
+- Audio: Upload or enter audio URL
+- Summary: Write 1-2 sentence overview (placeholder)
+- Publish time: Publish immediately
 
-发布后确认：
+After publishing, confirm:
 
-- 播放器能正常播放
-- 时长/文件大小等元数据正常显示（若有自动提取）
+- Player can play normally
+- Duration/file size and other metadata display correctly (if auto-extracted)
 
-## 第 4 步：检查 RSS
+## Step 4: Check RSS
 
-打开 RSS 地址（示例）：
+Open RSS address (example):
 
 - `https://example.com/feed/podcast`
 
-用校验工具检查（占位）：
+Validate with tools (placeholder):
 
-- Apple Podcasts 校验
-- Podcast Index 校验
+- Apple Podcasts validation
+- Podcast Index validation
 
-若失败，先看「故障排查」里的 RSS 部分。
-
+If it fails, check the RSS section in "Troubleshooting" first.

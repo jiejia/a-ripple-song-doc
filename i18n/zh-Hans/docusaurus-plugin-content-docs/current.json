@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "当前",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "开始使用",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Content Creation": {
+    "message": "内容制作",
+    "description": "The label for category 'Content Creation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Features": {
+    "message": "功能说明",
+    "description": "The label for category 'Features' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Maintenance & Support": {
+    "message": "维护与支持",
+    "description": "The label for category 'Maintenance & Support' in sidebar 'tutorialSidebar'"
+  }
+}

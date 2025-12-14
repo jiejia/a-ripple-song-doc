@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import Translate from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
@@ -19,17 +20,19 @@ function HomepageHeader() {
       </div>
       <div className="container">
         <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
-          {siteConfig.title}
+          <Translate id="homepage.hero.title">A Ripple Song</Translate>
         </Heading>
-        <p className={clsx('hero__subtitle', styles.heroSubtitle)}>{siteConfig.tagline}</p>
+        <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
+          <Translate id="homepage.hero.tagline">All-in-one podcast theme for WordPress</Translate>
+        </p>
         <div className={styles.buttons}>
           <Link
             className={clsx('button button--primary button--lg', styles.primaryCta)}
             to="/docs/intro">
-            Theme Tutorial · 5min
+            <Translate id="homepage.hero.primaryCta">Theme Tutorial · 5min</Translate>
           </Link>
           <Link className={clsx('button button--secondary button--lg', styles.secondaryCta)} to="/blog">
-            What’s new
+            <Translate id="homepage.hero.secondaryCta">What's new</Translate>
           </Link>
         </div>
       </div>
@@ -41,8 +44,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description={siteConfig.tagline}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

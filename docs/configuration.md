@@ -1,33 +1,32 @@
 ---
-title: 配置
-description: 主题设置项总览与推荐值
+title: Configuration
+description: Theme settings overview and recommended values
 ---
 
-# 配置
+# Configuration
 
-建议按“先站点级配置 → 再播客级配置 → 最后播放器与小部件”的顺序设置。
+Recommend setting in this order: "site-level configuration → podcast-level configuration → finally player and widgets".
 
-## 站点级设置（占位）
+## Site-Level Settings (Placeholder)
 
-- 站点 Logo / Favicon
-- 全局配色方案（浅色/深色）
-- 版权信息与页脚链接
+- Site Logo / Favicon
+- Global color scheme (light/dark)
+- Copyright information and footer links
 
-## 播客级设置（占位）
+## Podcast-Level Settings (Placeholder)
 
-- 播客名称 / 作者 / 简介
-- 分类与关键词
-- 默认封面
-- 订阅链接（Apple Podcasts/Spotify/小宇宙等）
+- Podcast name / author / description
+- Categories and keywords
+- Default cover
+- Subscription links (Apple Podcasts/Spotify/Xiaoyuzhou, etc.)
 
-## 播放器设置（占位）
+## Player Settings (Placeholder)
 
-- 默认播放速度：1.0x
-- 进度记忆：开启
-- 波形/频谱：开启（如有）
+- Default playback speed: 1.0x
+- Progress memory: Enabled
+- Waveform/spectrum: Enabled (if available)
 
-## 推荐配置清单
+## Recommended Configuration Checklist
 
-- 首次上线前：完善 RSS 必填字段
-- 上线后：开启统计与缓存策略
-
+- Before first launch: Complete RSS required fields
+- After launch: Enable analytics and caching strategy

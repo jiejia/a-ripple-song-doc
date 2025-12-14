@@ -1,20 +1,19 @@
 ---
-title: 数据追踪与分析
-description: 浏览/播放统计的启用与含义
+title: Data Tracking & Analytics
+description: Enabling and understanding view/play statistics
 ---
 
-# 数据追踪与分析
+# Data Tracking & Analytics
 
-本页说明如何启用统计、指标含义与隐私建议（占位）。
+This page explains how to enable analytics, metric meanings, and privacy recommendations (placeholder).
 
-## 指标（占位）
+## Metrics (Placeholder)
 
-- 浏览量（PV/UV）
-- 播放量（Play/Complete）
-- 热门剧集排行
+- Views (PV/UV)
+- Plays (Play/Complete)
+- Popular episode rankings
 
-## 隐私与合规（占位）
+## Privacy & Compliance (Placeholder)
 
-- 是否需要 Cookie 提示
-- 统计的匿名化策略
-
+- Whether cookie notice is needed
+- Anonymization strategy for analytics

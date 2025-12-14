@@ -1,28 +1,27 @@
 ---
-title: 介绍
-description: A Ripple Song 播客主题使用文档
+title: Introduction
+description: A Ripple Song Podcast Theme Documentation
 ---
 
-# A Ripple Song 播客主题
+# A Ripple Song Podcast Theme
 
-这是一套面向播客站点的主题方案，目标是让你用最少的步骤完成：创建播客 → 发布剧集 → 生成并提交 RSS → 让听众顺畅地收听。
+This is a theme solution for podcast sites, designed to help you complete the following with minimal steps: create podcasts → publish episodes → generate and submit RSS → let listeners enjoy seamless playback.
 
-## 你将学到什么
+## What You'll Learn
 
-- 如何快速安装并完成首次配置
-- 如何发布第一期剧集（音频、封面、简介、元数据）
-- 如何生成符合平台要求的 RSS（含 Podcasting 2.0/iTunes 关键字段）
-- 如何启用播放器、小部件、国际化与统计
+- How to quickly install and complete initial configuration
+- How to publish your first episode (audio, cover, description, metadata)
+- How to generate RSS that meets platform requirements (including Podcasting 2.0/iTunes key fields)
+- How to enable player, widgets, internationalization, and analytics
 
-## 阅读路线
+## Reading Guide
 
-- 新手：先看「快速开始」→「安装」→「配置」
-- 内容发布：看「剧集管理」→「RSS 与分发」
-- 出现问题：直接看「故障排查」
+- Beginners: Start with "Quick Start" → "Installation" → "Configuration"
+- Content Publishing: See "Episode Management" → "RSS & Distribution"
+- Troubleshooting: Go directly to "Troubleshooting"
 
-## 约定与术语（占位）
+## Conventions & Terminology (Placeholder)
 
-- “播客”：一个节目（Podcast）
-- “剧集”：一集内容（Episode）
-- “RSS”：播客订阅源（Feed）
-
+- "Podcast": A show (Podcast)
+- "Episode": A piece of content (Episode)
+- "RSS": Podcast subscription feed (Feed)

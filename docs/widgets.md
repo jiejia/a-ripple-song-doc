@@ -1,27 +1,26 @@
 ---
-title: 小部件
-description: 列表、订阅、成员等小部件的用法
+title: Widgets
+description: Usage of list, subscription, member, and other widgets
 ---
 
-# 小部件
+# Widgets
 
-本页列出主题内置小部件，并给出“放哪里/怎么配置/示例效果”（占位）。
+This page lists built-in theme widgets and provides "where to place/how to configure/example effects" (placeholder).
 
-## 小部件列表（占位）
+## Widget List (Placeholder)
 
-- 播客列表
-- 博客列表
-- 成员展示
-- 订阅链接
-- 标签云
-- 轮播横幅
-- 页脚链接
+- Podcast list
+- Blog list
+- Member showcase
+- Subscription links
+- Tag cloud
+- Carousel banner
+- Footer links
 
-## 配置示例（占位）
+## Configuration Example (Placeholder)
 
-示例：订阅链接小部件
+Example: Subscription links widget
 
-- Apple Podcasts：`https://...`
-- Spotify：`https://...`
-- RSS：`https://...`
-
+- Apple Podcasts: `https://...`
+- Spotify: `https://...`
+- RSS: `https://...`

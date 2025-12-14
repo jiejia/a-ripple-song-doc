@@ -1,43 +1,42 @@
 ---
-title: RSS 与分发
-description: RSS 字段、校验与平台提交
+title: RSS & Distribution
+description: RSS fields, validation, and platform submission
 ---
 
-# RSS 与分发
+# RSS & Distribution
 
-RSS 是播客分发的核心。本页用占位内容解释关键字段与工作流。
+RSS is the core of podcast distribution. This page uses placeholder content to explain key fields and workflows.
 
-## RSS 地址（占位）
+## RSS Address (Placeholder)
 
-- 主 RSS：`https://example.com/feed/podcast`
-- 单播客 RSS（如支持）：`https://example.com/feed/podcast/{slug}`
+- Main RSS: `https://example.com/feed/podcast`
+- Single podcast RSS (if supported): `https://example.com/feed/podcast/{slug}`
 
-## 关键字段清单（占位）
+## Key Field Checklist (Placeholder)
 
-- `title`：播客名称
-- `description`：播客简介
-- `image`：封面
-- `language`：语言（例如 `zh-CN`）
-- `itunes:category`：分类
-- `enclosure`：音频文件链接
+- `title`: Podcast name
+- `description`: Podcast description
+- `image`: Cover
+- `language`: Language (e.g., `zh-CN`)
+- `itunes:category`: Category
+- `enclosure`: Audio file link
 
-## 校验与排错
+## Validation & Troubleshooting
 
-建议每次发布后至少做一次校验（占位）：
+Recommend validating at least once after each publish (placeholder):
 
-- Apple Podcasts 校验
-- Podcast Index 校验
+- Apple Podcasts validation
+- Podcast Index validation
 
-常见错误：
+Common errors:
 
-- 音频 URL 403/302
-- HTTPS 证书问题
-- 封面尺寸不合规
+- Audio URL 403/302
+- HTTPS certificate issues
+- Cover size non-compliant
 
-## 提交到平台（占位）
+## Submit to Platforms (Placeholder)
 
 - Apple Podcasts
 - Spotify
 - YouTube Music
-- 小宇宙
-
+- Xiaoyuzhou

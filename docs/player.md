@@ -1,22 +1,21 @@
 ---
-title: 播放器
-description: 播放体验、功能说明与配置
+title: Player
+description: Playback experience, features, and configuration
 ---
 
-# 播放器
+# Player
 
-本页描述播放器功能与可配置项（占位）。
+This page describes player features and configurable options (placeholder).
 
-## 功能
+## Features
 
-- 倍速播放（0.5x–2x）
-- 进度记忆
-- 播放列表（如支持）
-- 移动端底部播放器（如支持）
+- Variable playback speed (0.5x–2x)
+- Progress memory
+- Playlist (if supported)
+- Mobile bottom player (if supported)
 
-## 配置项（占位）
+## Configuration Options (Placeholder)
 
-- 默认倍速
-- 自动播放下一集
-- 键盘快捷键
-
+- Default playback speed
+- Auto-play next episode
+- Keyboard shortcuts

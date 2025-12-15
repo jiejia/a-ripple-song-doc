@@ -81,6 +81,7 @@ const config: Config = {
       logo: {
         alt: 'A Ripple Song Logo',
         src: 'img/podcast.svg',
+        srcDark: 'img/podcast-dark.svg',
       },
       items: [
         {

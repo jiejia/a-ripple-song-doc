@@ -41,11 +41,30 @@
 
 /* Global Polish */
 .navbar {
+  /* 
+   * CRITICAL FIX: We must NOT put backdrop-filter or transform on the .navbar container.
+   * Doing so creates a new coordinate system (containing block) for fixed-position children.
+   * This causes the full-screen mobile sidebar (which is a child of .navbar) to be clipped 
+   * to the height of the navbar (60px), effectively hiding it.
+   */
+  backdrop-filter: none;
+  background-color: transparent !important;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.navbar__inner {
+  background-color: var(--ifm-navbar-background-color);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-[data-theme='dark'] .navbar {
+.navbar-sidebar {
+  background-color: var(--ifm-navbar-background-color);
+  backdrop-filter: blur(12px);
+}
+
+[data-theme='dark'] .navbar__inner {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 

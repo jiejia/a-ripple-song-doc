@@ -160,7 +160,7 @@
   position: absolute;
   top: 0;
   right: -20px;
-  transform: translate(100%, -50%) rotate(5deg);
+  transform: translate(100%, -50%);
   z-index: 10;
   padding: 0.25rem 0.6rem;
   border-radius: 12px;
@@ -169,11 +169,13 @@
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: white;
-  -webkit-text-fill-color: white;
-  background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
-  box-shadow: 0 4px 10px rgba(225, 29, 72, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #854d0e;
+  /* Yellow 800 */
+  -webkit-text-fill-color: #854d0e;
+  background: linear-gradient(135deg, #fef9c3 0%, #fde047 100%);
+  /* Yellow 100 -> 300 */
+  box-shadow: 0 4px 10px rgba(250, 204, 21, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .heroSubtitle {
@@ -266,6 +268,6 @@
 
   .betaBadge {
     right: 0;
-    transform: translate(40%, -60%) rotate(5deg) scale(0.8);
+    transform: translate(40%, -60%) scale(0.8);
   }
 }

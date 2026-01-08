@@ -168,7 +168,6 @@
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
   color: #854d0e;
   /* Yellow 800 */
   -webkit-text-fill-color: #854d0e;
@@ -249,7 +248,7 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
   .heroBanner {
     padding: 4rem 1.5rem;
   }
@@ -268,6 +267,7 @@
 
   .betaBadge {
     right: 0;
-    transform: translate(40%, -60%) scale(0.8);
+    transform-origin: top right;
+    transform: translate(85%, -35%) scale(0.8);
   }
 }

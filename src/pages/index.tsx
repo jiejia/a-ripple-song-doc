@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -10,7 +10,7 @@ import Translate from '@docusaurus/Translate';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className={styles.heroBackground} aria-hidden="true">
@@ -22,7 +22,7 @@ function HomepageHeader() {
         <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
           <span className={styles.heroTitleInner}>
             <Translate id="homepage.hero.title">A Ripple Song</Translate>
-            <span className={styles.betaBadge}>beta</span>
+            <span className={styles.betaBadge}>v0.6.0-beta</span>
           </span>
         </Heading>
         <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
@@ -44,7 +44,7 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={siteConfig.title}

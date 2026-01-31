@@ -20,8 +20,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jiejia', // Usually your GitHub org/user name.
+  projectName: 'a-ripple-song-doc', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -46,7 +46,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/jiejia/a-ripple-song-doc/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -57,7 +57,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/jiejia/a-ripple-song-doc/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -88,11 +88,16 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
+        },
+        {
+          href: 'https://github.com/jiejia/a-ripple-song-podcast',
+          label: 'Plugin',
+          position: 'right',
         },
         {
           href: 'https://github.com/jiejia/a-ripple-song',
-          label: 'GitHub',
+          label: 'Theme',
           position: 'right',
         },
         { type: 'localeDropdown', position: 'right' },
@@ -105,8 +110,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Getting Started',
               to: '/docs/intro',
+            },
+            {
+              label: 'Installation',
+              to: '/docs/installation',
             },
           ],
         },
@@ -114,16 +123,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Issues (Plugin)',
+              href: 'https://github.com/jiejia/a-ripple-song-podcast/issues',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Issues (Theme)',
+              href: 'https://github.com/jiejia/a-ripple-song/issues',
             },
           ],
         },
@@ -136,7 +141,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/jiejia/a-ripple-song',
             },
           ],
         },

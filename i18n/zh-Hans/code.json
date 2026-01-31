@@ -1,15 +1,15 @@
 {
   "homepage.hero.title": {
-    "message": "脉动之音"
+    "message": "A Ripple Song"
   },
   "homepage.hero.tagline": {
-    "message": "面向 WordPress 的一体化播客主题"
+    "message": "面向 WordPress 的一体化播客主题。\n现已采用模块化插件架构。"
   },
   "homepage.hero.primaryCta": {
-    "message": "主题教程 · 5分钟"
+    "message": "开始使用"
   },
   "homepage.hero.secondaryCta": {
-    "message": "最新动态"
+    "message": "GitHub"
   },
   "homepage.features.kicker": {
     "message": "您需要的一切"

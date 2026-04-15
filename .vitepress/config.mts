@@ -58,14 +58,22 @@ export default defineConfig({
         logo,
         nav: [
           { text: '首页', link: '/zh/' },
-          { text: '主题', link: '/zh/markdown-examples' }
+          { text: '主题', link: '/zh/theme' }
         ],
         sidebar: [
           {
-            text: '示例',
+            text: '简介',
+            collapsed: true,
             items: [
-              { text: 'Markdown 示例', link: '/zh/markdown-examples' },
-              { text: '运行时 API 示例', link: '/zh/api-examples' }
+              { text: '什么是 A Ripple Song', link: '/zh/guide/what-is-a-ripple-song' },
+              { text: '快速开始', link: '/zh/guide/getting-started' }
+            ]
+          },
+          {
+            text: '主题',
+            collapsed: true,
+            items: [
+              { text: 'Daisy', link: '/zh/theme/daisy' }
             ]
           }
         ],

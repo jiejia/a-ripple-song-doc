@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: A Ripple Song 是什么
-      link: /zh/markdown-examples
+      link: /zh/guide/what-is-a-ripple-song
     - theme: alt
       text: 快速开始
-      link: /zh/api-examples
+      link: /zh/guide/getting-started
     - theme: alt
       text: 主题
       link: /zh/api-examples

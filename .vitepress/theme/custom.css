@@ -1,0 +1,21 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    120deg,
+    #0f766e 0%,
+    #14b8a6 28%,
+    #38bdf8 62%,
+    #6366f1 100%
+  );
+}
+
+.dark {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    120deg,
+    #5eead4 0%,
+    #22d3ee 32%,
+    #60a5fa 68%,
+    #a78bfa 100%
+  );
+}

@@ -1,0 +1,18 @@
+{
+  "name": "a-ripple-song-doc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Ripple Song documentation site powered by VitePress",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.17"
+  }
+}

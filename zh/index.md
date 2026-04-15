@@ -34,11 +34,11 @@ features:
     title: 播客 RSS 生成
     details: 内置 RSS 源生成，符合 iTunes 和 Podcasting 2.0 标准，一键分发到各大播客平台。
   - icon:
-      src: /icons/languages-gray.svg
-      alt: Languages icon
+      src: /icons/layout-template-gray.svg
+      alt: Layout Template icon
       width: 24
       height: 24
       wrap: true
-    title: 完善的国际化支持
-    details: 内置 WordPress 多语言翻译系统，支持 14 种语言的播客元数据。
+    title: 专属播客主题
+    details: 提供专门为 A Ripple Song 设计的播客主题，针对节目列表、单集页面和收听流程做了优化，带来更好的浏览与收听体验。
 ---

@@ -31,11 +31,11 @@ features:
     title: Simple structure
     details: Keep config in .vitepress and content as Markdown files in the project root.
   - icon:
-      src: /icons/blocks-gray.svg
-      alt: Blocks icon
+      src: /icons/layout-template-gray.svg
+      alt: Layout Template icon
       width: 24
       height: 24
       wrap: true
-    title: Ready to extend
-    details: Add custom theme files, components, and deployment config as the docs grow.
+    title: Dedicated podcast theme
+    details: Includes a podcast theme built specifically for A Ripple Song, optimized for show archives, episode pages, and listening flows to deliver a better user experience.
 ---

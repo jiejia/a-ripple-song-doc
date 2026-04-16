@@ -70,14 +70,14 @@ export default defineConfig({
             ]
           },
           {
-            text: '播客管理',
+            text: '播客',
             collapsed: true,
             items: [
-              { text: '添加', link: '/zh/guide/podcast-type' },
-              { text: '编辑', link: '/zh/guide/podcast-category' },
-              { text: '分类', link: '/zh/guide/podcast-fields' },
-              { text: '设置', link: '/zh/guide/podcast-settings' },
-              { text: 'RSS 生成', link: '/zh/guide/podcast-delete' }
+              { text: '添加', link: '/zh/podcast/add' },
+              { text: '编辑', link: '/zh/podcast/edit' },
+              { text: '分类', link: '/zh/podcast/category' },
+              { text: '设置', link: '/zh/podcast/settings' },
+              { text: 'RSS 生成', link: '/zh/podcast/rss-generation' }
             ]
           },
           {

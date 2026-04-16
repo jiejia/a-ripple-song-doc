@@ -70,6 +70,17 @@ export default defineConfig({
             ]
           },
           {
+            text: '播客管理',
+            collapsed: true,
+            items: [
+              { text: '添加', link: '/zh/guide/podcast-type' },
+              { text: '编辑', link: '/zh/guide/podcast-category' },
+              { text: '分类', link: '/zh/guide/podcast-fields' },
+              { text: '设置', link: '/zh/guide/podcast-settings' },
+              { text: 'RSS 生成', link: '/zh/guide/podcast-delete' }
+            ]
+          },
+          {
             text: '主题',
             collapsed: true,
             items: [

@@ -83,7 +83,7 @@ export default defineConfig({
             text: '主题',
             collapsed: true,
             items: [
-              { text: 'Daisy', link: '/zh/theme/daisy' }
+              { text: 'Daisy A Ripple Song', link: '/zh/themes/daisy' }
             ]
           }
         ],

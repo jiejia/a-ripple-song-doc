@@ -8,7 +8,7 @@
 4. 安装完成后，点击【启用】
 ### 插件包安装
 1. 从 [Github Release](https://github.com/jiejia/a-ripple-song/releases) 下载最新版本的 `a-ripple-song-podcast.zip` 文件到本地，或者从 [WordPress Themes](https://wordpress.org/plugins/a-ripple-song/) 下载` a-ripple-song-podcast.zip` 到本地
-2. 进入 WordPress 后台页面/wp-admin/plugin-install.php，点击【上传插件】，选择文件后点击【立即安装】
+2. 进入 WordPress 后台【添加插件】页面，点击【上传插件】，选择文件后点击【立即安装】
 3. 点击【启用】
 ### 命令行安装
 1. 首先检查环境是否安装wp cli，若没有请先安装 https://wp-cli.org/

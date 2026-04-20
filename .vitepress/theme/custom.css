@@ -19,3 +19,16 @@
     #a78bfa 100%
   );
 }
+
+.vp-doc img:not(.no-zoom) {
+  cursor: zoom-in;
+}
+
+.medium-zoom-image--opened {
+  cursor: zoom-out;
+  z-index: 10001;
+}
+
+.medium-zoom-overlay {
+  z-index: 10000;
+}

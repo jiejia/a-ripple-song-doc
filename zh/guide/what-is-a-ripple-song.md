@@ -1,4 +1,4 @@
-# 什么是 A Ripple Song？
+# A Ripple Song 是什么？
 
 A Ripple Song 是一个基于 WordPress 的播客插件，也是整个播客系统的核心。它负责播客内容的数据结构、后台管理、音频信息处理和 RSS 分发，让 WordPress 具备完整的播客发布能力。
 

@@ -15,10 +15,6 @@ hero:
     - theme: alt
       text: Theme
       link: /themes/daisy
-    - theme: alt
-      text: Demo
-      link: https://podcast.aripplesong.me/      
-
 features:
   - icon:
       src: /icons/podcast-gray.svg

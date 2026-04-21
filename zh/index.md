@@ -14,7 +14,10 @@ hero:
       link: /zh/guide/getting-started
     - theme: alt
       text: 主题
-      link: /zh/api-examples
+      link: /zh/themes/daisy
+    - theme: alt
+      text: Demo
+      link: https://podcast.aripplesong.me/
 
 features:
   - icon:

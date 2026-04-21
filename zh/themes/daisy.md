@@ -1,8 +1,10 @@
 # Daisy A Ripple Song
 
 [Daisy A Ripple Song](https://github.com/jiejia/daisy-a-ripple-song)  是一个经典 WordPress 主题，自带音频播放器和播客 widget 等功能。
-
 <img width="" src="/images/daisy.png"/>
+
+## Demo
+[https://cn-podcast.aripplesong.me/](https://cn-podcast.aripplesong.me/) 
 
 ## 安装
 

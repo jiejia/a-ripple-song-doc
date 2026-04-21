@@ -23,14 +23,29 @@ export default defineConfig({
         logo,
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Examples', link: '/markdown-examples' }
+          { text: 'Theme', link: '/themes/daisy.html' }
         ],
         sidebar: [
           {
-            text: 'Examples',
+            text: 'Introduction',
             items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              { text: 'What is A Ripple Song?', link: '/guide/what-is-a-ripple-song' },
+              { text: 'Getting Started', link: '/guide/getting-started' }
+            ]
+          },
+          {
+            text: 'Usage',
+            items: [
+              { text: 'Managing Podcasts', link: '/podcast/manage' },
+              { text: 'Podcast Categories', link: '/podcast/category' },
+              { text: 'Podcast Settings', link: '/podcast/settings' },
+              { text: 'Podcast RSS Generation', link: '/podcast/rss-generation' }
+            ]
+          },
+          {
+            text: 'Theme',
+            items: [
+              { text: 'Daisy A Ripple Song', link: '/themes/daisy' }
             ]
           }
         ],
@@ -58,20 +73,18 @@ export default defineConfig({
         logo,
         nav: [
           { text: '首页', link: '/zh/' },
-          { text: '主题', link: '/zh/theme' }
+          { text: '主题', link: '/zh/themes/daisy.html' }
         ],
         sidebar: [
           {
             text: '简介',
-            collapsed: true,
             items: [
               { text: 'A Ripple Song 是什么', link: '/zh/guide/what-is-a-ripple-song' },
               { text: '快速开始', link: '/zh/guide/getting-started' }
             ]
           },
           {
-            text: '播客',
-            collapsed: true,
+            text: '使用',
             items: [
               { text: '管理播客', link: '/zh/podcast/manage' },
               { text: '播客分类', link: '/zh/podcast/category' },
@@ -81,7 +94,6 @@ export default defineConfig({
           },
           {
             text: '主题',
-            collapsed: true,
             items: [
               { text: 'Daisy A Ripple Song', link: '/zh/themes/daisy' }
             ]

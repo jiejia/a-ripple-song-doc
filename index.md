@@ -4,32 +4,38 @@ layout: home
 hero:
   name: A Ripple Song
   text: A WordPress Podcast Plugin
-  tagline: Documentation site powered by VitePress.
+  tagline: An all-in-one podcasting solution with everything you need.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: What is A Ripple Song?
+      link: /guide/what-is-a-ripple-song
     - theme: alt
-      text: Runtime API Examples
-      link: /api-examples
+      text: Getting Started
+      link: /guide/getting-started
+    - theme: alt
+      text: Theme
+      link: /themes/daisy
+    - theme: alt
+      text: Demo
+      link: https://podcast.aripplesong.me/      
 
 features:
   - icon:
-      src: /icons/square-pen-gray.svg
-      alt: Square Pen icon
+      src: /icons/podcast-gray.svg
+      alt: Podcast icon
       width: 24
       height: 24
       wrap: true
-    title: Fast authoring
-    details: Write documentation in Markdown with instant feedback from the local dev server.
+    title: Professional podcast management
+    details: A complete podcast content management solution with episode numbers, season management, members, and guests.
   - icon:
-      src: /icons/folder-tree-gray.svg
-      alt: Folder Tree icon
+      src: /icons/rss-gray.svg
+      alt: RSS icon
       width: 24
       height: 24
       wrap: true
-    title: Simple structure
-    details: Keep config in .vitepress and content as Markdown files in the project root.
+    title: Podcast RSS generation
+    details: Built-in RSS feed generation that follows iTunes and Podcasting 2.0 standards for one-step distribution to major podcast platforms.
   - icon:
       src: /icons/layout-template-gray.svg
       alt: Layout Template icon

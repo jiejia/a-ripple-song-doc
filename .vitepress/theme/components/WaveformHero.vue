@@ -45,8 +45,8 @@ onMounted(() => {
       targetHeight: Math.random(),
       currentHeight: Math.random(),
       envelope: envelope,
-      speed: 0.05 + Math.random() * 0.1,
-      delay: Math.random() * 20
+      speed: 0.15 + Math.random() * 0.2, // increased speed
+      delay: Math.random() * 10 // reduced initial delay
     })
   }
 
@@ -86,7 +86,7 @@ onMounted(() => {
       // Update target randomly after a delay
       if (time > bar.delay && Math.abs(bar.currentHeight - bar.targetHeight) < 0.05) {
         bar.targetHeight = Math.random()
-        bar.delay = time + 10 + Math.random() * 30
+        bar.delay = time + 5 + Math.random() * 15 // reduced wait time before next change
       }
       
       // Ease current height to target height

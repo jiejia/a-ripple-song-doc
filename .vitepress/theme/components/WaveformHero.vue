@@ -48,7 +48,7 @@ onMounted(() => {
       envelope: envelope,
       // Add random properties for each bar to break pure continuity
       noisePhase: Math.random() * Math.PI * 2,
-      noiseSpeed: 0.8 + Math.random() * 1.5,
+      noiseSpeed: 1.2 + Math.random() * 2.2, // ~1.5x original speed
       noiseWeight: 0.4 + Math.random() * 0.6
     })
   }
@@ -103,8 +103,9 @@ onMounted(() => {
       // ---------------------------
       
       // Combine multiple sine waves for an organic, fluid motion
-      const wave1 = Math.sin(normalizedX * Math.PI * 4 + time * 1.2)
-      const wave2 = Math.sin(normalizedX * Math.PI * 7 - time * 1.8)
+      // Set to ~1.5x of original speed
+      const wave1 = Math.sin(normalizedX * Math.PI * 4 + time * 1.8)
+      const wave2 = Math.sin(normalizedX * Math.PI * 7 - time * 2.7)
 
       // Local random wave for this specific bar to add independence
       const localNoise = Math.sin(time * bar.noiseSpeed + bar.noisePhase)

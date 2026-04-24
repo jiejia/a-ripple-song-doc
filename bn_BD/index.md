@@ -5,6 +5,9 @@ hero:
   name: A Ripple Song
   text: WordPress পডকাস্ট প্লাগইন
   tagline: আপনার প্রয়োজনীয় সবকিছুর সাথে একটি সম্পূর্ণ পডকাস্টিং সমাধান।
+  image:
+    src: /podcast.svg
+    alt: A Ripple Song
   actions:
     - theme: brand
       text: A Ripple Song কী?
@@ -13,8 +16,8 @@ hero:
       text: শুরু করুন
       link: /bn_BD/guide/getting-started
     - theme: alt
-      text: থিম
-      link: /bn_BD/themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

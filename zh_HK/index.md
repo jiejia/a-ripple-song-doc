@@ -5,6 +5,9 @@ hero:
   name: A Ripple Song
   text: 一個 WordPress 播客外掛
   tagline: 一站式播客解決方案，提供你需要的一切。
+  image:
+    src: /podcast.svg
+    alt: A Ripple Song
   actions:
     - theme: brand
       text: A Ripple Song 是甚麼
@@ -13,8 +16,8 @@ hero:
       text: 快速開始
       link: /zh_HK/guide/getting-started
     - theme: alt
-      text: 主題
-      link: /zh_HK/themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

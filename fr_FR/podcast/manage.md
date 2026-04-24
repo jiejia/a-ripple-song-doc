@@ -16,28 +16,27 @@
 
   | Champ | Description |
   |---|---|
-  | Audio File <span style="color: red;">*</span> | Obligatoire. Téléversez un fichier audio ou saisissez une URL audio (https). |
-  | Duration (seconds) | Détecté automatiquement à l’enregistrement depuis “Audio File”, en secondes, en lecture seule. |
-  | Audio Length (bytes) | Détecté automatiquement à l’enregistrement depuis “Audio File”, en lecture seule. |
-  | Audio MIME Type | Détecté automatiquement à l’enregistrement depuis “Audio File”, en lecture seule, par défaut `audio/mpeg`. |
-  | Explicit <span style="color: red;">*</span> | Obligatoire. Choisissez `clean` ou `explicit`. |
-  | Episode Type <span style="color: red;">*</span> | Obligatoire. Choisissez `full`, `trailer` ou `bonus`. |
-  | Episode Number | Facultatif, mais recommandé. Entier. |
-  | Season Number | Facultatif. Entier. |
-  | Episode Author (override) | Facultatif. Remplace l’auteur du canal pour cet épisode. |
-  | Episode Cover (square) | Facultatif. Image carrée, recommandée entre 1400 et 3000 px. Remplace la couverture du canal. |
-  | Transcript (optional) | Facultatif. Téléversez un fichier de transcription ou saisissez une URL, formats pris en charge vtt/srt/txt/pdf, etc. |
-  | iTunes Title (optional) | Facultatif. Valeur de remplacement du titre de l’épisode pour Apple Podcasts. |
-  | Chapters (Podcasting 2.0) | Facultatif. Fichier ou URL JSON des chapitres. |
-  | Chapters MIME Type | Facultatif. Type MIME du fichier de chapitres, par défaut `application/json+chapters`. |
-  | Soundbites (Podcasting 2.0) | Champ composé. Ajoutez un ou plusieurs extraits ; chaque extrait contient l’heure de début, la durée et le titre. |
-  | Subtitle | Facultatif. Court sous-titre iTunes. |
-  | Summary | Facultatif. Résumé iTunes en texte brut. |
-  | Custom GUID (optional) | Facultatif. GUID RSS personnalisé ; si vide, le lien de l’épisode est utilisé. |
-  | iTunes Block | Facultatif. `yes` masque l’épisode dans Apple Podcasts, valeur par défaut `no`. |
-  | Members | Sélectionnez les membres de l’épisode, généralement administrateurs, auteurs ou éditeurs. |
-  | Guests | Sélectionnez les invités de l’épisode, généralement des contributeurs. |
+  | Fichier audio <span style="color: red;">*</span> | Obligatoire. Téléversez un fichier audio ou saisissez une URL audio (https). |
+  | Durée (secondes) | Détecté automatiquement à l’enregistrement depuis “Fichier audio”, en secondes, en lecture seule. |
+  | Taille audio (octets) | Détecté automatiquement à l’enregistrement depuis “Fichier audio”, en lecture seule. |
+  | Type MIME audio | Détecté automatiquement à l’enregistrement depuis “Fichier audio”, en lecture seule, par défaut `audio/mpeg`. |
+  | Contenu explicite <span style="color: red;">*</span> | Obligatoire. Choisissez `clean` ou `explicit`. |
+  | Type d’épisode <span style="color: red;">*</span> | Obligatoire. Choisissez `full`, `trailer` ou `bonus`. |
+  | Numéro d’épisode | Facultatif, mais recommandé. Entier. |
+  | Numéro de saison | Facultatif. Entier. |
+  | Auteur de l’épisode (remplacement) | Facultatif. Remplace l’auteur du canal pour cet épisode. |
+  | Couverture de l’épisode (carrée) | Facultatif. Image carrée, recommandée entre 1400 et 3000 px. Remplace la couverture du canal. |
+  | Transcription (facultatif) | Facultatif. Téléversez un fichier de transcription ou saisissez une URL, formats pris en charge vtt/srt/txt/pdf, etc. |
+  | Titre iTunes (facultatif) | Facultatif. Valeur de remplacement du titre de l’épisode pour Apple Podcasts. |
+  | Chapitres (Podcasting 2.0) | Facultatif. Fichier ou URL JSON des chapitres. |
+  | Type MIME des chapitres | Facultatif. Type MIME du fichier de chapitres, par défaut `application/json+chapters`. |
+  | Extraits audio (Podcasting 2.0) | Champ composé. Ajoutez un ou plusieurs extraits ; chaque extrait contient l’heure de début, la durée et le titre. |
+  | Sous-titre | Facultatif. Court sous-titre iTunes. |
+  | Résumé | Facultatif. Résumé iTunes en texte brut. |
+  | GUID personnalisé (facultatif) | Facultatif. GUID RSS personnalisé ; si vide, le lien de l’épisode est utilisé. |
+  | Blocage iTunes | Facultatif. `yes` masque l’épisode dans Apple Podcasts, valeur par défaut `no`. |
+  | Membres | Sélectionnez les membres de l’épisode, généralement administrateurs, auteurs ou éditeurs. |
+  | Invités | Sélectionnez les invités de l’épisode, généralement des contributeurs. |
 
 ## Notes
 - Les champs marqués d’un <span style="color: red;">*</span> sont obligatoires.
-

@@ -5,6 +5,9 @@ hero:
   name: A Ripple Song
   text: ورڈپریس پوڈکاسٹ پلگ ان
   tagline: پوڈکاسٹنگ کا مکمل حل، ہر چیز کے ساتھ۔
+  image:
+    src: /podcast.svg
+    alt: A Ripple Song
   actions:
     - theme: brand
       text: A Ripple Song کیا ہے؟
@@ -13,8 +16,8 @@ hero:
       text: آغاز کیسے کریں
       link: /ur/guide/getting-started
     - theme: alt
-      text: تھیم
-      link: /ur/themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

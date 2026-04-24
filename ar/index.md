@@ -5,6 +5,9 @@ hero:
   name: A Ripple Song
   text: إضافة بودكاست ووردبريس
   tagline: حل متكامل للبودكاست بكل ما تحتاجه.
+  image:
+    src: /podcast.svg
+    alt: A Ripple Song
   actions:
     - theme: brand
       text: ما هو A Ripple Song؟
@@ -13,8 +16,8 @@ hero:
       text: البدء السريع
       link: /ar/guide/getting-started
     - theme: alt
-      text: القالب
-      link: /ar/themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

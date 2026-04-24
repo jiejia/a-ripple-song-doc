@@ -13,8 +13,8 @@ hero:
       text: 快速开始
       link: /zh/guide/getting-started
     - theme: alt
-      text: 主题
-      link: /zh/themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

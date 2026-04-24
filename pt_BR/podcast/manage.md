@@ -16,28 +16,27 @@
 
   | Campo | Descrição |
   |---|---|
-  | Audio File <span style="color: red;">*</span> | Obrigatório. Envie um arquivo de áudio ou informe uma URL de áudio (https). |
-  | Duration (seconds) | Detectado automaticamente ao salvar a partir de “Audio File”, em segundos, somente leitura. |
-  | Audio Length (bytes) | Detectado automaticamente ao salvar a partir de “Audio File”, somente leitura. |
-  | Audio MIME Type | Detectado automaticamente ao salvar a partir de “Audio File”, somente leitura, padrão `audio/mpeg`. |
-  | Explicit <span style="color: red;">*</span> | Obrigatório. Escolha `clean` ou `explicit`. |
-  | Episode Type <span style="color: red;">*</span> | Obrigatório. Escolha `full`, `trailer` ou `bonus`. |
-  | Episode Number | Opcional, mas recomendado. Inteiro. |
-  | Season Number | Opcional. Inteiro. |
-  | Episode Author (override) | Opcional. Substitui o autor do canal para este episódio. |
-  | Episode Cover (square) | Opcional. Imagem quadrada, recomendada entre 1400 e 3000 px. Substitui a capa do canal. |
-  | Transcript (optional) | Opcional. Envie um arquivo de transcrição ou informe uma URL, com suporte a vtt/srt/txt/pdf, etc. |
-  | iTunes Title (optional) | Opcional. Valor de substituição do título do episódio para Apple Podcasts. |
-  | Chapters (Podcasting 2.0) | Opcional. Arquivo JSON de capítulos ou URL. |
-  | Chapters MIME Type | Opcional. Tipo MIME do arquivo de capítulos, padrão `application/json+chapters`. |
-  | Soundbites (Podcasting 2.0) | Campo composto. Adicione um ou mais trechos destacados; cada item inclui hora de início, duração e título. |
-  | Subtitle | Opcional. Subtítulo curto do iTunes. |
-  | Summary | Opcional. Resumo do iTunes em texto simples. |
-  | Custom GUID (optional) | Opcional. GUID RSS personalizado; se estiver vazio, usa o link do episódio. |
-  | iTunes Block | Opcional. `yes` oculta o episódio no Apple Podcasts, padrão `no`. |
-  | Members | Selecione os membros do episódio, normalmente administradores, autores ou editores. |
-  | Guests | Selecione os convidados do episódio, normalmente colaboradores. |
+  | Arquivo de áudio <span style="color: red;">*</span> | Obrigatório. Envie um arquivo de áudio ou informe uma URL de áudio (https). |
+  | Duração (segundos) | Detectado automaticamente ao salvar a partir de “Audio File”, em segundos, somente leitura. |
+  | Tamanho do áudio (bytes) | Detectado automaticamente ao salvar a partir de “Audio File”, somente leitura. |
+  | Tipo MIME de áudio | Detectado automaticamente ao salvar a partir de “Audio File”, somente leitura, padrão `audio/mpeg`. |
+  | Explícito <span style="color: red;">*</span> | Obrigatório. Escolha `clean` ou `explicit`. |
+  | Tipo do episódio <span style="color: red;">*</span> | Obrigatório. Escolha `full`, `trailer` ou `bonus`. |
+  | Número do episódio | Opcional, mas recomendado. Inteiro. |
+  | Número da temporada | Opcional. Inteiro. |
+  | Autor do episódio (substituição) | Opcional. Substitui o autor do canal para este episódio. |
+  | Capa do episódio (quadrada) | Opcional. Imagem quadrada, recomendada entre 1400 e 3000 px. Substitui a capa do canal. |
+  | Transcrição (opcional) | Opcional. Envie um arquivo de transcrição ou informe uma URL, com suporte a vtt/srt/txt/pdf, etc. |
+  | Título do iTunes (opcional) | Opcional. Valor de substituição do título do episódio para Apple Podcasts. |
+  | Capítulos (Podcasting 2.0) | Opcional. Arquivo JSON de capítulos ou URL. |
+  | Tipo MIME dos capítulos | Opcional. Tipo MIME do arquivo de capítulos, padrão `application/json+chapters`. |
+  | Trechos de áudio (Podcasting 2.0) | Campo composto. Adicione um ou mais trechos destacados; cada item inclui hora de início, duração e título. |
+  | Subtítulo | Opcional. Subtítulo curto do iTunes. |
+  | Resumo | Opcional. Resumo do iTunes em texto simples. |
+  | GUID personalizado (opcional) | Opcional. GUID RSS personalizado; se estiver vazio, usa o link do episódio. |
+  | Bloqueio do iTunes | Opcional. `yes` oculta o episódio no Apple Podcasts, padrão `no`. |
+  | Membros | Selecione os membros do episódio, normalmente administradores, autores ou editores. |
+  | Convidados | Selecione os convidados do episódio, normalmente colaboradores. |
 
 ## Observações
 - Os campos marcados com <span style="color: red;">*</span> são obrigatórios.
-

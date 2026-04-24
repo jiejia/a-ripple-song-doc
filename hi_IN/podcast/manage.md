@@ -16,27 +16,27 @@
 
   | फ़ील्ड | विवरण |
   |---|---|
-  | Audio File <span style="color: red;">*</span> | आवश्यक। ऑडियो फ़ाइल अपलोड करें या ऑडियो URL (https) दर्ज करें। |
-  | Duration (seconds) | सहेजने पर “Audio File” से अपने-आप पता चलता है, सेकंड में, केवल पढ़ने के लिए। |
-  | Audio Length (bytes) | सहेजने पर “Audio File” से अपने-आप पता चलता है, केवल पढ़ने के लिए। |
-  | Audio MIME Type | सहेजने पर “Audio File” से अपने-आप पता चलता है, केवल पढ़ने के लिए, डिफ़ॉल्ट `audio/mpeg`। |
-  | Explicit <span style="color: red;">*</span> | आवश्यक। `clean` या `explicit` चुनें। |
-  | Episode Type <span style="color: red;">*</span> | आवश्यक। `full`, `trailer` या `bonus` चुनें। |
-  | Episode Number | वैकल्पिक, लेकिन अनुशंसित। पूर्णांक। |
-  | Season Number | वैकल्पिक। पूर्णांक। |
-  | Episode Author (override) | वैकल्पिक। इस एपिसोड के लिए चैनल लेखक को बदल देता है। |
-  | Episode Cover (square) | वैकल्पिक। वर्गाकार छवि, 1400-3000px अनुशंसित। चैनल कवर को बदल देती है। |
-  | Transcript (optional) | वैकल्पिक। ट्रांसक्रिप्ट फ़ाइल अपलोड करें या URL दें, vtt/srt/txt/pdf आदि समर्थित हैं। |
-  | iTunes Title (optional) | वैकल्पिक। Apple Podcasts के लिए एपिसोड शीर्षक का वैकल्पिक मान। |
-  | Chapters (Podcasting 2.0) | वैकल्पिक। chapters JSON फ़ाइल या URL। |
-  | Chapters MIME Type | वैकल्पिक। chapters फ़ाइल का MIME प्रकार, डिफ़ॉल्ट `application/json+chapters`। |
-  | Soundbites (Podcasting 2.0) | संयुक्त फ़ील्ड। एक या अधिक highlight clips जोड़ें; हर clip में start time, duration और title होता है। |
-  | Subtitle | वैकल्पिक। iTunes का छोटा सबटाइटल। |
-  | Summary | वैकल्पिक। iTunes का plain-text summary। |
-  | Custom GUID (optional) | वैकल्पिक। कस्टम RSS GUID; खाली रहने पर एपिसोड लिंक उपयोग होता है। |
-  | iTunes Block | वैकल्पिक। `yes` Apple Podcasts में एपिसोड छिपाता है, डिफ़ॉल्ट `no`। |
-  | Members | एपिसोड के सदस्य चुनें, आमतौर पर administrators, authors या editors। |
-  | Guests | एपिसोड के guests चुनें, आमतौर पर contributors। |
+  | ऑडियो फ़ाइल <span style="color: red;">*</span> | आवश्यक। ऑडियो फ़ाइल अपलोड करें या ऑडियो URL (https) दर्ज करें। |
+  | अवधि (सेकंड) | सहेजने पर “Audio File” से अपने-आप पता चलता है, सेकंड में, केवल पढ़ने के लिए। |
+  | ऑडियो लंबाई (बाइट) | सहेजने पर “Audio File” से अपने-आप पता चलता है, केवल पढ़ने के लिए। |
+  | ऑडियो MIME प्रकार | सहेजने पर “Audio File” से अपने-आप पता चलता है, केवल पढ़ने के लिए, डिफ़ॉल्ट `audio/mpeg`। |
+  | स्पष्ट <span style="color: red;">*</span> | आवश्यक। `clean` या `explicit` चुनें। |
+  | एपिसोड प्रकार <span style="color: red;">*</span> | आवश्यक। `full`, `trailer` या `bonus` चुनें। |
+  | एपिसोड संख्या | वैकल्पिक, लेकिन अनुशंसित। पूर्णांक। |
+  | सीज़न संख्या | वैकल्पिक। पूर्णांक। |
+  | एपिसोड लेखक (ओवरराइड) | वैकल्पिक। इस एपिसोड के लिए चैनल लेखक को बदल देता है। |
+  | एपिसोड कवर (वर्गाकार) | वैकल्पिक। वर्गाकार छवि, 1400-3000px अनुशंसित। चैनल कवर को बदल देती है। |
+  | प्रतिलिपि (वैकल्पिक) | वैकल्पिक। ट्रांसक्रिप्ट फ़ाइल अपलोड करें या URL दें, vtt/srt/txt/pdf आदि समर्थित हैं। |
+  | iTunes शीर्षक (वैकल्पिक) | वैकल्पिक। Apple Podcasts के लिए एपिसोड शीर्षक का वैकल्पिक मान। |
+  | अध्याय (Podcasting 2.0) | वैकल्पिक। chapters JSON फ़ाइल या URL। |
+  | अध्याय MIME प्रकार | वैकल्पिक। chapters फ़ाइल का MIME प्रकार, डिफ़ॉल्ट `application/json+chapters`। |
+  | ऑडियो अंश (Podcasting 2.0) | संयुक्त फ़ील्ड। एक या अधिक highlight clips जोड़ें; हर clip में start time, duration और title होता है। |
+  | उपशीर्षक | वैकल्पिक। iTunes का छोटा सबटाइटल। |
+  | सारांश | वैकल्पिक। iTunes का plain-text summary। |
+  | कस्टम GUID (वैकल्पिक) | वैकल्पिक। कस्टम RSS GUID; खाली रहने पर एपिसोड लिंक उपयोग होता है। |
+  | iTunes ब्लॉक | वैकल्पिक। `yes` Apple Podcasts में एपिसोड छिपाता है, डिफ़ॉल्ट `no`। |
+  | सदस्य | एपिसोड के सदस्य चुनें, आमतौर पर administrators, authors या editors। |
+  | अतिथि | एपिसोड के guests चुनें, आमतौर पर contributors। |
 
 ## नोट्स
 - जिन फ़ील्ड्स पर <span style="color: red;">*</span> है वे आवश्यक हैं।

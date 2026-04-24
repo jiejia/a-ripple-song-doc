@@ -16,6 +16,7 @@
     "vitepress": "^2.0.0-alpha.17"
   },
   "dependencies": {
+    "audiomotion-analyzer": "^4.5.4",
     "medium-zoom": "^1.1.0"
   }
 }

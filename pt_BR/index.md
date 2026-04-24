@@ -5,6 +5,9 @@ hero:
   name: A Ripple Song
   text: Um plugin de podcast para WordPress
   tagline: Uma solução completa de podcasting com tudo o que você precisa.
+  image:
+    src: /podcast.svg
+    alt: A Ripple Song
   actions:
     - theme: brand
       text: O que é A Ripple Song?
@@ -13,8 +16,8 @@ hero:
       text: Primeiros passos
       link: /pt_BR/guide/getting-started
     - theme: alt
-      text: Tema
-      link: /pt_BR/themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

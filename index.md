@@ -13,8 +13,8 @@ hero:
       text: Getting Started
       link: /guide/getting-started
     - theme: alt
-      text: Theme
-      link: /themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

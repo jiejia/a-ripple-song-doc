@@ -1,7 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
-import { nextTick, onMounted, watch } from 'vue'
+import { nextTick, onMounted, watch, h } from 'vue'
 import { useRoute } from 'vitepress'
 import './custom.css'
+import WaveformHero from './components/WaveformHero.vue'
 
 let zoom: ReturnType<typeof import('medium-zoom').default> | undefined
 
@@ -17,6 +18,11 @@ async function initZoom() {
 
 export default {
   extends: DefaultTheme,
+  Layout: () => {
+    return h(DefaultTheme.Layout, null, {
+      'home-hero-image': () => h(WaveformHero)
+    })
+  },
   setup() {
     const route = useRoute()
 

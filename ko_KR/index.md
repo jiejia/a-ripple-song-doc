@@ -5,6 +5,9 @@ hero:
   name: A Ripple Song
   text: 워드프레스 팟캐스트 플러그인
   tagline: 필요한 모든 것을 갖춘 올인원 팟캐스팅 솔루션입니다.
+  image:
+    src: /podcast.svg
+    alt: A Ripple Song
   actions:
     - theme: brand
       text: A Ripple Song이란?
@@ -13,8 +16,8 @@ hero:
       text: 시작하기
       link: /ko_KR/guide/getting-started
     - theme: alt
-      text: 테마
-      link: /ko_KR/themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

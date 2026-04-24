@@ -5,6 +5,9 @@ hero:
   name: A Ripple Song
   text: Плагин подкастов для WordPress
   tagline: Универсальное решение для подкастинга со всем необходимым.
+  image:
+    src: /podcast.svg
+    alt: A Ripple Song
   actions:
     - theme: brand
       text: Что такое A Ripple Song?
@@ -13,8 +16,8 @@ hero:
       text: Быстрый старт
       link: /ru_RU/guide/getting-started
     - theme: alt
-      text: Тема
-      link: /ru_RU/themes/daisy
+      text: Demo
+      link: https://podcast.aripplesong.me/
 features:
   - icon:
       src: /icons/podcast-gray.svg

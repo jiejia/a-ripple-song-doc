@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: A Ripple Song
+  name: 脉动之音
   text: 一个 WordPress 播客插件
   tagline: 一站式播客解决方案，提供您需要的一切。
   actions:
     - theme: brand
-      text: A Ripple Song 是什么
+      text: 什么是脉动之音
       link: /zh/guide/what-is-a-ripple-song
     - theme: alt
       text: 快速开始

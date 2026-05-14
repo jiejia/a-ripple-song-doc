@@ -7,7 +7,7 @@ hero:
   tagline: 一站式播客解决方案，提供您需要的一切。
   actions:
     - theme: brand
-      text: 什么是脉动之音
+      text: A Ripple Song 是什么
       link: /zh/guide/what-is-a-ripple-song
     - theme: alt
       text: 快速开始

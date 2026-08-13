@@ -3,15 +3,15 @@ layout: home
 
 hero:
   name: A Ripple Song
-  text: A WordPress Podcast Plugin
+  text: A WordPress Podcast Theme
   tagline: An all-in-one podcasting solution with everything you need.
   actions:
     - theme: brand
       text: What is A Ripple Song?
       link: /guide/what-is-a-ripple-song
     - theme: alt
-      text: Getting Started
-      link: /guide/getting-started
+      text: Installation
+      link: /guide/installation
     - theme: alt
       text: Demo
       link: https://podcast.aripplesong.me/

@@ -32,7 +32,7 @@ export default defineConfig({
             text: 'Introduction',
             items: [
               { text: 'What is A Ripple Song?', link: '/guide/what-is-a-ripple-song' },
-              { text: 'Getting Started', link: '/guide/getting-started' }
+              { text: 'Installation', link: '/guide/installation' }
             ]
           },
           {
@@ -82,7 +82,7 @@ export default defineConfig({
             text: '简介',
             items: [
               { text: 'A Ripple Song 是什么', link: '/zh/guide/what-is-a-ripple-song' },
-              { text: '快速开始', link: '/zh/guide/getting-started' }
+              { text: '安装', link: '/zh/guide/installation' }
             ]
           },
           {
@@ -92,12 +92,6 @@ export default defineConfig({
               { text: '播客分类', link: '/zh/podcast/category' },
               { text: '播客设置', link: '/zh/podcast/settings' },
               { text: '播客 RSS 生成', link: '/zh/podcast/rss-generation' }
-            ]
-          },
-          {
-            text: '主题',
-            items: [
-              { text: 'Daisy A Ripple Song', link: '/zh/themes/daisy' }
             ]
           }
         ],

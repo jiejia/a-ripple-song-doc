@@ -1,24 +1,17 @@
 # What is A Ripple Song?
 
-A Ripple Song is a WordPress podcast plugin and the core of the full podcasting system. It handles podcast content data structures, admin management, audio metadata processing, and RSS distribution, turning WordPress into a complete podcast publishing platform.
+A Ripple Song is a classic WordPress podcast theme with built-in episode publishing, podcast RSS output, a persistent audio player, theme-specific widgets, and ready-to-import demo data. The project is built with Sage, Acorn, Carbon Fields, and a modern Vite frontend workflow.
 
 ## Core Capabilities
 
-- Adds podcast post types and podcast categories to WordPress.
-- Provides podcast-specific fields and admin settings.
-- Automatically extracts audio duration, file size, format, and related metadata.
-- Generates RSS feeds that follow iTunes and Podcasting 2.0 standards, ready for distribution to major podcast platforms.
-- Provides fields for statistics data.
-
-## Relationship with Themes
-
-The A Ripple Song plugin is the core, while themes present podcast content to visitors.
-
-- The plugin handles features, data, and business logic.
-- The theme handles page presentation and user experience.
-
-In other words, the plugin remains the core of the podcasting system even without a theme. A theme builds on top of that core and presents podcast content in a more complete form that is better suited for browsing and listening.
-
-## Summary
-
-A Ripple Song gives WordPress complete podcasting capabilities, while a theme turns that podcast content into a usable website experience.
+- Provides a podcast episode custom post type for uploading audio files and maintaining episode metadata.
+- Provides a `/feed/podcast/` podcast RSS feed for platforms such as Apple Podcasts and Spotify.
+- Provides a Podcast Settings page for podcast title, author, owner, cover, language, Apple Podcasts categories, and other feed metadata.
+- Includes a persistent bottom player with a playlist drawer, playback speed control, waveform area, and volume control.
+- Provides theme-specific widget areas for the home page, right sidebar, left sidebar, and footer.
+- Includes Banner Carousel, Podcast List, Blog List, Authors, Subscribe Links, Tags Cloud, and Footer Links widgets.
+- Integrates One Click Demo Import for importing the theme's demo content and widget configuration.
+- Supports separate light and dark theme presets through the WordPress Customizer.
+- Provides responsive layouts with a mobile menu, search modal, left drawer, right drawer, and playlist drawer.
+- Includes view-count statistics for posts and play-count statistics for podcast episodes.
+- Includes prepared language support for English and Simplified Chinese.

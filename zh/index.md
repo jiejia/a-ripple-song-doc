@@ -10,8 +10,8 @@ hero:
       text: A Ripple Song 是什么
       link: /zh/guide/what-is-a-ripple-song
     - theme: alt
-      text: 快速开始
-      link: /zh/guide/getting-started
+      text: 安装
+      link: /zh/guide/installation
     - theme: alt
       text: Demo
       link: https://podcast.aripplesong.me/

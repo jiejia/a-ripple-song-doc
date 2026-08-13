@@ -1,24 +1,19 @@
 # A Ripple Song 是什么？
 
-A Ripple Song 是一个基于 WordPress 的播客插件，也是整个播客系统的核心。它负责播客内容的数据结构、后台管理、音频信息处理和 RSS 分发，让 WordPress 具备完整的播客发布能力。
+A Ripple Song 是一个经典 WordPress 播客主题，内置播客节目发布、播客 RSS 输出、常驻音频播放器、主题专用小工具，以及开箱即用的演示导入数据。项目基于 Sage、Acorn、Carbon Fields 和现代化的 Vite 前端工作流构建。
+
 
 ## 核心能力
 
-- 为 WordPress 新增播客类型文章和分类
-- 提供播客专用字段与后台设置
-- 自动提取音频时长、大小、格式等信息
-- 生成符合 iTunes 和 Podcasting 2.0 标准的 RSS Feed，可自动分发到各大平台
-- 提供统计数据字段
+- 内置播客节目自定义文章类型，支持上传音频文件和维护节目元数据。
+- 内置 /feed/podcast/ 播客 RSS Feed，可用于 Apple Podcasts、Spotify 等播客平台。
+- 提供 Podcast Settings 设置页，用于配置播客标题、作者、所有者、封面图、语言和 Apple 分类等 Feed 元数据。
+- 内置底部常驻播放器，支持播放列表抽屉、倍速控制、波形区域和音量控制。
+- 提供首页、右侧边栏、左侧边栏和页脚等主题专用 Widget 区域。
+- 内置 Banner Carousel、Podcast List、Blog List、Authors、Subscribe Links、Tags Cloud 和 Footer Links 等主题小工具。
+- 集成 One Click Demo Import，可导入主题自带的演示内容和小工具配置。
+- 支持通过 WordPress Customizer 分别选择浅色和深色主题预设。
+- 具备响应式布局能力，包含移动菜单、搜索弹窗、左侧抽屉、右侧抽屉和播放列表抽屉。
+- 内置文章浏览量和播客播放量统计能力。
+- 已准备好多语言支持，当前包含英文和简体中文语言文件。
 
-## 和主题的关系
-
-A Ripple Song 插件是核心，主题是呈现播客内容的界面。
-
-- 插件负责功能、数据和业务逻辑
-- 主题负责页面展示和用户体验
-
-也就是说，没有主题，插件依然是播客系统的核心；而主题是在这个核心之上，把播客内容以更完整、更适合收听和浏览的方式展示出来。
-
-## 总结
-
-A Ripple Song 是一个让 WordPress 具备完整播客能力的核心插件，而主题则负责把这些播客内容展示成真正可用的网站界面。

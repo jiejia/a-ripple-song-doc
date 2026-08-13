@@ -25,7 +25,6 @@ export default defineConfig({
         logo,
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Theme', link: '/themes/daisy.html' }
         ],
         sidebar: [
           {
@@ -69,7 +68,6 @@ export default defineConfig({
         logo,
         nav: [
           { text: '首页', link: '/zh/' },
-          { text: '主题', link: '/zh/themes/daisy.html' }
         ],
         sidebar: [
           {

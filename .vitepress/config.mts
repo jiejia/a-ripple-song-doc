@@ -43,12 +43,6 @@ export default defineConfig({
               { text: 'Podcast Settings', link: '/podcast/settings' },
               { text: 'Podcast RSS Generation', link: '/podcast/rss-generation' }
             ]
-          },
-          {
-            text: 'Theme',
-            items: [
-              { text: 'Daisy A Ripple Song', link: '/themes/daisy' }
-            ]
           }
         ],
         socialLinks,

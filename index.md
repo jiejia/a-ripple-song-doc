@@ -17,27 +17,51 @@ hero:
       link: https://podcast.aripplesong.me/
 features:
   - icon:
-      src: /icons/podcast-gray.svg
-      alt: Podcast icon
+      src: /icons/square-pen-gray.svg
+      alt: Episode publishing icon
       width: 24
       height: 24
       wrap: true
-    title: Professional podcast management
-    details: A complete podcast content management solution with episode numbers, season management, members, and guests.
+    title: Podcast episode publishing
+    details: Create dedicated podcast episodes with audio uploads, episode and season numbers, guests, members, covers, transcripts, chapters, and Podcasting 2.0 metadata.
   - icon:
       src: /icons/rss-gray.svg
       alt: RSS icon
       width: 24
       height: 24
       wrap: true
-    title: Podcast RSS generation
-    details: Built-in RSS feed generation that follows iTunes and Podcasting 2.0 standards for one-step distribution to major podcast platforms.
+    title: Built-in podcast RSS feed
+    details: Publish a standards-aware /feed/podcast/ feed with configurable show metadata for Apple Podcasts, Spotify, and other podcast directories.
   - icon:
-      src: /icons/layout-template-gray.svg
-      alt: Layout Template icon
+      src: /icons/podcast-gray.svg
+      alt: Podcast player icon
       width: 24
       height: 24
       wrap: true
-    title: Dedicated podcast theme
-    details: Includes a podcast theme built specifically for A Ripple Song, optimized for show archives, episode pages, and listening flows to deliver a better user experience.
+    title: Persistent listening experience
+    details: Keep audio playing with a bottom player featuring playlists, playback speed, waveform visualization, volume control, and autoplay prompts.
+  - icon:
+      src: /icons/blocks-gray.svg
+      alt: Widgets icon
+      width: 24
+      height: 24
+      wrap: true
+    title: Curated content widgets
+    details: Compose homepage and sidebar content with Banner Carousel, Podcast List, Blog List, Authors, Subscribe Links, Tags Cloud, and Footer Links widgets.
+  - icon:
+      src: /icons/layout-template-gray.svg
+      alt: Responsive layout icon
+      width: 24
+      height: 24
+      wrap: true
+    title: Responsive, customizable design
+    details: Adapt the experience across screen sizes with mobile navigation, search, drawers, and selectable light and dark theme presets in the WordPress Customizer.
+  - icon:
+      src: /icons/languages-gray.svg
+      alt: Languages icon
+      width: 24
+      height: 24
+      wrap: true
+    title: Ready for multilingual publishing
+    details: Use the translation-ready theme structure with English and Simplified Chinese language files for a localized podcast site.
 ---
